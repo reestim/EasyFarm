@@ -1,16 +1,6 @@
-2021-12-04 12:10:21.2830 EasyFarm.Logging.NLogTextFileLogger EasyFarm Started ...
-2021-12-05 07:50:40.4294 EasyFarm.Logging.NLogTextFileLogger FSM thread cancelled
-System.OperationCanceledException: The operation was canceled.
-   at System.Threading.CancellationToken.ThrowOperationCanceledException()
-   at EasyFarm.States.FiniteStateMachine.RunStateMachine() in C:\projects\easyfarm\EasyFarm\States\FiniteStateMachine.cs:line 154
-   at EasyFarm.States.FiniteStateMachine.<RunFiniteStateMainWithThread>b__9_0() in C:\projects\easyfarm\EasyFarm\States\FiniteStateMachine.cs:line 99
-2021-12-05 07:51:59.7799 EasyFarm.Logging.NLogTextFileLogger FSM thread cancelled
-System.OperationCanceledException: The operation was canceled.
-   at System.Threading.CancellationToken.ThrowOperationCanceledException()
-   at EasyFarm.States.FiniteStateMachine.RunStateMachine() in C:\projects\easyfarm\EasyFarm\States\FiniteStateMachine.cs:line 154
-   at EasyFarm.States.FiniteStateMachine.<RunFiniteStateMainWithThread>b__9_0() in C:\projects\easyfarm\EasyFarm\States\FiniteStateMachine.cs:line 99
-2021-12-05 12:47:27.4509 EasyFarm.Logging.NLogTextFileLogger Unhandled Exception
-System.IO.IOException: The process cannot access the file 'C:\Users\Tim\Downloads\EF\EasyFarm1.0.132\Release\.eup' because it is being used by another process.
+2021-12-07 00:10:56.0650 EasyFarm.Logging.NLogTextFileLogger EasyFarm Started ...
+2021-12-08 21:06:53.1429 EasyFarm.Logging.NLogTextFileLogger Unhandled Exception
+System.IO.IOException: The process cannot access the file 'C:\Users\Tim\Downloads\EF - Copy\EasyFarm1.0.132\Release\.eup' because it is being used by another process.
    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
